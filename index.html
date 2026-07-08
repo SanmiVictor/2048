@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2048 Game</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>2048</h1>
+
+      <div class="score-box">
+        <div class="score">
+          <span>SCORE</span>
+          <h2 id="score">0</h2>
+        </div>
+
+        <div class="best">
+          <span>BEST</span>
+          <h2 id="best-score">0</h2>
+        </div>
+      </div>
+    </header>
+
+    <div class="controls">
+      <button id="newGame">New Game</button>
+      <button id="undo">Undo</button>
+    </div>
+
+    <div class="game-board" id="board">
+    <div id="tile-layer"></div>
+</div>
+
+<div id="gameModal" class="hidden">
+
+    <div class="modal-content">
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalMessage"></p>
+
+        <button id="modalButton">Play Again</button>
+
+    </div>
+
+</div>
+
+    <footer>
+      <p>Swipe to play.</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
