@@ -2,7 +2,6 @@ const board = document.getElementById("board");
 const scoreElement = document.getElementById("score");
 const newGameBtn = document.getElementById("newGame");
 const moveSound = new Audio("move.mp3");
-const mergeSound = new Audio("merge.mp3");
 const winSound = new Audio("win.mp3");
 const gameOverSound = new Audio("gameover.mp3");
 
